@@ -1,0 +1,15 @@
+.main_menu{
+    @apply bg-[#242338] px-5 py-10  rounded-xl 
+}
+.menu ul{
+    @apply flex flex-col justify-center items-center gap-5
+}
+.menu ul li a{
+    @apply flex justify-center items-center gap-2
+}
+.menu ul li .yesActive{
+    @apply text-3xl font-medium font-Poppins text-[#fff] py-5 px-4 bg-[#242338] rounded-lg hover:bg-[#332cb6]
+} 
+.menu ul li .noActive{
+    @apply text-3xl font-medium font-Poppins text-[#fff] py-5 px-4 bg-transparent rounded-lg hover:bg-[#332cb6] 
+}
