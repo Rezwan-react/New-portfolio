@@ -1,0 +1,27 @@
+.res_menu{
+    @apply absolute w-full lg:hidden
+}
+.menu_icon{
+    @apply w-[45px] h-[45px] rounded-lg bg-[#433D8B] p-[8px] text-[#fff] ml-auto
+}
+.slide_menu{
+    @apply w-full p-5 rounded-[10px] bg-[#17C2EC] absolute top-0 left-0;
+    animation: pop linear 1s;
+}
+@keyframes pop{
+    0%{
+        transform: scale(0);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+.slide_menu .cancel{
+    @apply text-2xl ml-auto
+}
+.slide_menu ul{
+    @apply flex flex-col gap-3 items-center
+}
+.slide_menu ul li a{
+    @apply text-xl font-medium font-Poppins text-black
+}

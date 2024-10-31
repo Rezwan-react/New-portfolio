@@ -6,8 +6,11 @@ export default {
   ],
   theme: {
     extend: {},
-    container: {
-      center: true,
+    container:{
+      center:true,
+      padding:{
+        DEFAULT: '35px',
+      }
     },
     fontFamily: {
       'Poppins': ["Poppins", 'serif'],
