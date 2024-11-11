@@ -1,8 +1,8 @@
 .main_menu{
-    @apply bg-[#242338] px-5 py-10  rounded-xl hidden lg:block
+    @apply bg-[#242338] mt-10 py-10  rounded-xl hidden lg:block
 }
 .menu_img{
-    @apply w-[100px] h-[100px] rounded-full m-auto
+    @apply w-[100px] h-[100px] rounded-full m-auto 
 }
 .menu_img img{
     @apply w-[100px] h-[100px] rounded-full overflow-hidden
@@ -14,7 +14,7 @@
     @apply text-xl font-semibold font-Poppins text-[#fff] mt-4 flex justify-center items-center
 }
 .menu ul{
-    @apply flex flex-col justify-center items-center gap-5
+    @apply flex flex-col justify-center items-center gap-5 mt-4
 }
 .menu ul li a{
     @apply flex justify-center items-center gap-2

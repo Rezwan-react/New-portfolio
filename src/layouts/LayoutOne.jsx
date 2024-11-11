@@ -6,7 +6,7 @@ import ResponsiveNav from '../components/responsiveNav/ResponsiveNav'
 function LayoutOne() {
   return (
     <>
-      <div className='flex p-4'>
+      <div className='flex p-4 gap-10'>
         <Navbar/>
         <ResponsiveNav/>
         <Outlet/>
