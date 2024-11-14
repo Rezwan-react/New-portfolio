@@ -1,0 +1,7 @@
+.skills{
+    @apply w-[1200px] pt-[60px] px-[80px] pb-[30px] mt-10 rounded-3xl bg-[#242338]
+}
+.skills_col{
+    @apply flex justify-center flex-wrap gap-10
+}
+

@@ -1,0 +1,23 @@
+.about{
+    @apply w-[1200px] pt-[60px] px-[80px] mt-10 rounded-3xl bg-[#242338]
+}
+.about_row{
+    @apply flex justify-between
+}
+.about_text p{
+    @apply w-[545px] text-[#94ADCF] font-normal font-Poppins text-xl
+}
+.about_con{
+    @apply mt-10
+}
+.about_con ul{
+    @apply flex flex-col gap-3
+}
+.about_con ul li{
+    @apply  text-[#94ADCF] font-normal font-Poppins text-[16px] 
+}
+.about_img{
+    @apply w-[400px]
+}
+
+

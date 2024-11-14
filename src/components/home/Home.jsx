@@ -37,7 +37,7 @@ function Home() {
                       <span style={{ fontWeight: 'bold' }}>
                         
                         <Typewriter
-                          words={['I', 'am', 'react', 'developer']}
+                          words={['I', 'am', 'a', 'react', 'developer']}
                           loop={true}
                           cursor
                           cursorStyle="|"
@@ -53,7 +53,7 @@ function Home() {
                 </div>
                 <div className="cv_button">
                 <a className='cv'
-                  href="/resume/CV.pdf" download='myCV' ><FaDownload className='text-xl' /> Download CV</a>
+                  href="/resume/Rezwan resume .pdf" download='myCV' ><FaDownload className='text-xl' /> Download CV</a>
                 </div>
                 <div className="social_button">
                   <h4>Follow Me</h4>
