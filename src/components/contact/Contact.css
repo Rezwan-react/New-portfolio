@@ -1,0 +1,12 @@
+.contact{
+    @apply w-[1200px] pt-[60px] px-[80px] mt-10 rounded-3xl bg-[#242338]
+}
+.contact_haed h2{
+    @apply text-3xl font-semibold font-Poppins text-[#94ADCF] mb-5
+}
+.contact_button ul{
+    @apply flex flex-col gap-5 w-fit mb-[90px]
+}
+.contact_row{
+    @apply flex justify-between
+}
