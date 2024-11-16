@@ -1,11 +1,10 @@
 import React from 'react'
 import './Portfolio.css'
 import PortfolioCard from '../portfolioCard/PortfolioCard'
-
 function Portfolio() {
   return (
     <>
-      <div className="portfolio">
+      <div className="motion portfolio ">
         <div className="container">
           <div className="portfolio_row">
             <div className="portfolio_col">
