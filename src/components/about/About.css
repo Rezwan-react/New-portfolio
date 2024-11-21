@@ -1,11 +1,11 @@
 .about{
-    @apply w-[1200px] pt-[60px] px-[80px] mt-10 rounded-3xl bg-[#242338]
+    @apply w-full pt-10 mt-16 lg:w-[1200px] lg:pt-[60px] lg:px-[80px] lg:mt-10 rounded-3xl bg-[#242338]
 }
 .about_row{
-    @apply flex justify-between
+    @apply lg:flex lg:justify-between
 }
 .about_text p{
-    @apply w-[545px] text-[#94ADCF] font-normal font-Poppins text-xl
+    @apply w-[300px]  lg:w-[545px] text-[#94ADCF] font-normal font-Poppins text-xl
 }
 .about_con{
     @apply mt-10
@@ -14,10 +14,10 @@
     @apply flex flex-col gap-3
 }
 .about_con ul li{
-    @apply  text-[#94ADCF] font-normal font-Poppins text-[16px] 
+    @apply  text-[#94ADCF] font-normal font-Poppins lg:text-[16px] text-[15px] pb-2
 }
 .about_img{
-    @apply w-[400px]
+    @apply pt-3 pb-4 lg:pb-0 lg:w-[400px]
 }
 
 

@@ -1,8 +1,8 @@
 .main_home{
-    @apply w-[1200px] pt-[60px] px-[80px] mt-10 rounded-3xl bg-[#242338]
+    @apply w-full pt-10 mt-16 lg:w-[1200px] lg:pt-[60px] lg:px-[80px] lg:mt-10 rounded-3xl bg-[#242338]
 }
 .head h1{
-    @apply text-[#94ADCF] font-semibold font-Poppins text-4xl
+    @apply text-[#94ADCF] font-semibold font-Poppins text-4xl 
 }
 .head h3{
     @apply text-[#94ADCF] font-semibold font-Poppins text-xl mt-10
@@ -22,11 +22,11 @@
     @apply text-2xl font-medium font-Poppins text-[#94ADCF] mt-8
 }
 .button{
-    @apply flex gap-8 mt-5
+    @apply flex gap-8 mt-5 mb-7
 }
 .home_col{
-    @apply flex justify-between
+    @apply lg:flex lg:justify-between 
 }
 .home_img{
-    @apply w-[400px] h-[400px] rounded-full overflow-hidden border-[5px] border-[#4473b5]
+    @apply w-[250px] h-[250px] mb-3  lg:w-[400px] lg:h-[400px] rounded-full overflow-hidden border-[5px] border-[#4473b5]
 }
