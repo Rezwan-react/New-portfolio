@@ -1,19 +1,30 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import './About.css'
-
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 function About() {
+
+  useEffect (()=>{
+    AOS.init({
+      offset: 100,
+      duration: 900,
+      easing: 'ease-in-sine',
+      delay: 100,
+    });
+  }, [])
+
   return (
     <>
       <div className="about">
         <div className="container">
           <div className="about_row">
             <div className="about_col">
-              <div className="about_text">
+              <div data-aos="zoom-in-right" className="about_text">
                 <p>I am Rezwan, a passionate React developer with 2+ years of experience in building dynamic and responsive web applications. Skilled in HTML, HTML5, CSS, CSS3, React, Tailwind CSS, and Redux.
                   I help you create websites for your business at affordable cost. Thousands of clients have achieved exceptional results while working with me. My objective is to deliver work within time and budget that meets the client's requirements.
                 </p>
               </div>
-              <div className="about_con">
+              <div data-aos="zoom-in-down" className="about_con">
                 <ul>
                   <li ><strong>Name:</strong> Rezwan</li>
                   <li >
@@ -29,7 +40,7 @@ function About() {
             </div>
             <div className="about_pic">
               <div className="about_be"></div>
-              <div className="about_img">
+              <div data-aos="zoom-out-up" className="about_img">
                
                
                 <div

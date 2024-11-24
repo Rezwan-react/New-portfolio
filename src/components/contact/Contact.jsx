@@ -1,10 +1,21 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import './Contact.css'
 import { FaFacebookF, FaGithub, FaLinkedinIn, FaPhoneAlt, FaTwitter } from "react-icons/fa";
 import { BiLogoGmail } from "react-icons/bi";
 import SocialButton from '../socialButton/SocialButton';
-
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 function Contact() {
+
+  useEffect (()=>{
+    AOS.init({
+      offset: 100,
+      duration: 900,
+      easing: 'ease-in-sine',
+      delay: 100,
+    });
+  }, [])
+
   return (
     <>
       <div className="contact">
@@ -12,10 +23,10 @@ function Contact() {
           <div className="contact_row">
             <div className="contact_col">
               <div className="contact_me">
-                <div className="contact_haed">
+                <div data-aos="flip-left" className="contact_haed">
                   <h2>Contact me</h2>
                 </div>
-                  <div className="contact_button">
+                  <div data-aos="flip-left" className="contact_button">
                   <ul>
                   <li><a href="tel:01788254971"
                     className="bg-white/10 group w-50 h-16 inline-flex transition-all duration-300 overflow-visible p-1 rounded-full group"
@@ -48,7 +59,7 @@ function Contact() {
                   </ul>                  
                   </div>
                </div> 
-               <div className="social_button">
+               <div data-aos="zoom-in-down" className="social_button">
                   <h4>Follow Me</h4>
                   <div className="button">
                   <SocialButton social_icons={<FaFacebookF/>} social_links='https://www.facebook.com/profile.php?id=61551685600240' />
@@ -58,7 +69,7 @@ function Contact() {
                   </div>
                 </div>    
             </div>
-            <div className="contact_form">
+            <div data-aos="flip-right" className="contact_form">
               <div className=" w-[500px] mx-auto bg-white/10  rounded-lg shadow-md p-4">
                 <form>
                   <div className="mb-4">

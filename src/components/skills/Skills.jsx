@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import './Skills.css'
 import SkillsCard from '../skillsCard/SkillsCard'
 import { FaGithub } from 'react-icons/fa';
@@ -12,9 +12,8 @@ import { IoLogoJavascript } from "react-icons/io";
 import { IoLogoFirebase } from "react-icons/io5";
 import { SiRedux } from "react-icons/si";
 
-
-
 function Skills() {
+
   return (
     <>
       <div className="skills">
