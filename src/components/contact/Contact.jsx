@@ -102,7 +102,7 @@ function Contact() {
                   </div>
                   <div className="mb-4">
                     <button
-                      className="w-full bg-[#F7AB0A] text-gray-700 font-semibold font-Poppins p-2 rounded transition-all hover:bg-[#FFC857] active:scale-90"
+                      className=" w-full bg-[#F7AB0A] text-gray-700 font-semibold font-Poppins p-2 rounded transition-all hover:bg-[#FFC857] active:scale-90"
                       type="submit"
                     >
                       Submit
