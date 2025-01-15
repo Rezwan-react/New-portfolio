@@ -2,10 +2,10 @@
     @apply absolute w-full lg:hidden 
 }
 .menu_icon{
-    @apply w-[45px] h-[45px] rounded-lg bg-[#433D8B] p-[8px] text-[#fff] ml-auto
+    @apply w-[45px] h-[45px] rounded-lg bg-[#1F2937] p-[8px] text-[#fff] ml-auto
 }
 .slide_menu{
-    @apply w-full p-5 rounded-[10px] bg-[#17C2EC] absolute top-0 left-0 ;
+    @apply w-full p-5 rounded-[10px] bg-[#1F2937] absolute top-0 left-0 ;
     animation: pop linear 1s;
 }
 @keyframes pop{

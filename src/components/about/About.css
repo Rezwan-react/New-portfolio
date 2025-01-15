@@ -1,5 +1,5 @@
 .about{
-    @apply w-full pt-10 mt-16 lg:w-[1200px] lg:pt-[60px] lg:px-[80px] lg:mt-10 rounded-3xl bg-[#242338]
+    @apply w-full pt-10 mt-16 lg:w-[1200px] lg:pt-[60px] lg:px-[80px] lg:mt-10 rounded-3xl bg-[#1F2937]
 }
 .about_row{
     @apply lg:flex lg:justify-between
