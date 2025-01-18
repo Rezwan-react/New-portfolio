@@ -5,6 +5,8 @@ import { BiLogoGmail } from "react-icons/bi";
 import SocialButton from '../socialButton/SocialButton';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import { MdEmail } from 'react-icons/md';
+import { IoCall } from 'react-icons/io5';
 function Contact() {
 
   useEffect (()=>{
@@ -27,38 +29,39 @@ function Contact() {
                 <div data-aos="flip-left" className="contact_haed">
                   <h2>Contact me</h2>
                 </div>
-                  <div data-aos="flip-left" className="contact_button">
-                  <ul>
-                  <li><a href="tel:01788254971"
-                    className="bg-white/10 group w-50 h-16 inline-flex transition-all duration-300 overflow-visible p-1 rounded-full group"
-                  >
-                    <div
-                      className="w-half h-full bg-white/10 overflow-hidden shadow-[0_0_1px_rgba(0,0,0,0.07),0_0_1px_rgba(0,0,0,0.05),0_3px_3px_rgba(0,0,0,0.25),0_1px_3px_rgba(0,0,0,0.12)] p-1 rounded-full hover:shadow-none duration-300"
-                    >
-                      <div
-                        className="w-full h-full text-xl gap-x-0.5 gap-y-0.5 justify-center text-[#94ADCF] bg-white/10 group-hover:bg-white/5 duration-200 items-center text-[18px] font-medium gap-4 inline-flex overflow-hidden px-4 py-2 rounded-full black group-hover:text-blue-600"
-                      >
-                        <FaPhoneAlt/>
-                        <span className="ml-2">01788254971</span>
-                      </div>
-                    </div>
-                  </a></li>
-                    <li><a href="mailto:mdrazwanislam8@gmail.com"
-                    className="bg-white/10 group w-50 h-16 inline-flex transition-all duration-300 overflow-visible p-1 rounded-full group"
-                  >
-                    <div
-                      className="w-half h-full bg-white/10 overflow-hidden shadow-[0_0_1px_rgba(0,0,0,0.07),0_0_1px_rgba(0,0,0,0.05),0_3px_3px_rgba(0,0,0,0.25),0_1px_3px_rgba(0,0,0,0.12)] p-1 rounded-full hover:shadow-none duration-300"
-                    >
-                      <div
-                        className="w-full h-full text-xl gap-x-0.5 gap-y-0.5 justify-center text-[#94ADCF] bg-white/10 group-hover:bg-white/5 duration-200 items-center text-[18px] font-medium gap-4 inline-flex overflow-hidden px-4 py-2 rounded-full black group-hover:text-blue-600"
-                      >
-                        <BiLogoGmail />
-                        <span className="ml-2">mdrazwanislam8@gmail.com</span>
-                      </div>
-                    </div>
-                  </a></li>                  
-                  </ul>                  
+                  <div className='flex justify-between mt-10'>
+                  <div class="flex justify-center items-center  ">
+  <button
+    href="/"
+    class="group w-[100px] h-[100px] flex justify-center items-center p-2 rounded-md drop-shadow-xl bg-[#7289da] from-gray-800 to-black text-white font-semibold hover:rounded-[50%] transition-all duration-500 hover:from-[#331029] hover:to-[#310413]"
+  >
+    <ul>
+    <li><a href="mailto:mdrazwanislam8@gmail.com"><MdEmail className='text-3xl' /></a></li>
+    </ul>
+    <span
+      class=" pointer-events-none absolute opacity-0 group-hover:opacity-100 group-hover:text-[#94ADCF] group-hover:text-xl  group-hover:-translate-y-20 duration-700"
+    >
+      <ul> <li><a href="mailto:mdrazwanislam8@gmail.com">mdrazwanislam8@gmail.com</a></li></ul>
+    </span>
+  </button>
+</div>
+<div class="flex justify-center items-center  ">
+  <button
+    href="/"
+    class="group w-[100px] h-[100px] flex justify-center items-center p-2 rounded-md drop-shadow-xl bg-[#7289da] from-gray-800 to-black text-white font-semibold hover:rounded-[50%] transition-all duration-500 hover:from-[#331029] hover:to-[#310413]"
+  >
+    <ul>
+    <li><a href="tel:01788254971"><IoCall className='text-3xl' /></a></li>
+    </ul>
+    <span
+      class=" pointer-events-none absolute opacity-0 group-hover:opacity-100 group-hover:text-[#94ADCF] group-hover:text-xl  group-hover:-translate-y-20 duration-700"
+    >
+      <ul> <li><a href="tel:01788254971">01788254971</a></li></ul>
+    </span>
+  </button>
+</div>
                   </div>
+
                </div> 
                <div data-aos="zoom-in-down" className="social_button">
                   <h4>Follow Me</h4>

@@ -1,7 +1,6 @@
 import React, { useEffect } from 'react'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-
 function PortfolioCard({portfolio_img, portfolio_head, portfolio_text}) {
 
     useEffect (()=>{
@@ -15,7 +14,7 @@ function PortfolioCard({portfolio_img, portfolio_head, portfolio_text}) {
 
   return (
     <>        
-        <div data-aos="flip-up" class="relative flex w-80 flex-col rounded-xl bg-white/40 bg-clip-border text-gray-700 shadow-md hover:scale-105 transition duration-300 ease-in-out ">
+        <div data-aos="flip-up" class="  relative flex w-80 flex-col rounded-xl bg-white/40 bg-clip-border text-gray-700 shadow-md hover:scale-105 transition duration-300 ease-in-out ">
             <div class="relative mx-4 -mt-6 h-40 overflow-hidden rounded-xl bg-blue-gray-500 bg-clip-border text-white shadow-lg shadow-blue-gray-500/40 bg-gradient-to-r from-blue-500 to-blue-600">
                 <img src={portfolio_img} alt="img" />
             </div>

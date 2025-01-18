@@ -35,7 +35,7 @@ function About() {
                   <strong>Phone:</strong> <a href="tel:01788254971">01788254971</a>
                   </li>
                   <li ><strong>From:</strong> Bangladesh</li>
-                  <li><strong>Languages:</strong> Bengali, English, Hindi</li>
+                  <li><strong>Languages:</strong> Bangla, English, Hindi</li>
                 </ul>
               </div>
             </div>

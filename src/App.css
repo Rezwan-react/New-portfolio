@@ -1,3 +1,4 @@
 body{
-    background: rgb(17 24 39 );
+    /* @apply  w-full   bg-[url("/images/bg.png")] bg-center bg-cover bg-no-repeat   */
+       background: rgb(17 24 39 );
 }

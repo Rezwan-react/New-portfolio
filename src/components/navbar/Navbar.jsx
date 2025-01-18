@@ -14,14 +14,15 @@ function Navbar() {
         <div className="container">
           <div className="menu_row">
             <div className="menu_col">
-              {/* <div className="menu_head">
+              <div className="menu_head">
                 <div className="menu_img">
                   <img src="images/rezwan.jpg" alt="img" />
                 </div>
                 <div className="menu_text">
                   <h1>Rezwan</h1>
+                  <h2>Font-end Developer</h2>
                 </div>
-              </div> */}
+              </div>
               <div className="menu">
                 <ul>
                   <li><NavLink to="/" className={({ isActive, }) => isActive ? "yesActive" : "noActive" }> <IoHome />Home</NavLink></li>
