@@ -31,6 +31,7 @@ function Home() {
 
   return (
     <>
+    <section>
       <div className="main_home">
         <div className="container">
           <div className="home_row">
@@ -84,6 +85,7 @@ function Home() {
           </div>
         </div>
       </div>
+    </section>  
 
 
 

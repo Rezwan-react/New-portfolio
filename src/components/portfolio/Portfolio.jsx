@@ -4,6 +4,7 @@ import PortfolioCard from '../portfolioCard/PortfolioCard'
 function Portfolio() {
   return (
     <>
+    <section>
       <div className="motion portfolio ">
         <div className="container">
           <div className="portfolio_row">
@@ -18,6 +19,7 @@ function Portfolio() {
           </div>
         </div>
       </div>
+    </section>  
     </>
   )
 }

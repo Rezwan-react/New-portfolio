@@ -16,6 +16,7 @@ function Skills() {
 
   return (
     <>
+    <section>
       <div className="skills">
         <div className="container">
           <div className="skills_row">
@@ -34,6 +35,7 @@ function Skills() {
           </div>
         </div>
       </div>
+    </section>  
     </>
   )
 }

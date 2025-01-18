@@ -18,6 +18,7 @@ function Contact() {
 
   return (
     <>
+    <section>
       <div className="contact">
         <div className="container">
           <div className="contact_row">
@@ -114,6 +115,7 @@ function Contact() {
           </div>
         </div>
       </div>
+    </section>
     </>
   )
 }

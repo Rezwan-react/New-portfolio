@@ -15,6 +15,7 @@ function About() {
 
   return (
     <>
+    <section>
       <div className="about">
         <div className="container">
           <div className="about_row">
@@ -57,6 +58,7 @@ function About() {
           </div>
         </div>
       </div>
+    </section>  
     </>
   )
 }
