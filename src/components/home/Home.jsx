@@ -31,8 +31,8 @@ function Home() {
 
   return (
     <>
-    <section>
-      <div className="main_home">
+    <section id='main_home'>
+      <div >
         <div className="container">
           <div className="home_row">
             <div className="home_col">

@@ -2,3 +2,6 @@ body{
     /* @apply  w-full   bg-[url("/images/bg.png")] bg-center bg-cover bg-no-repeat   */
        background: rgb(17 24 39 );
 }
+/* .container{
+    @apply bg-[#1F2937]
+} */

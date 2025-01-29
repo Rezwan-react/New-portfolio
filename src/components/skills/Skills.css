@@ -1,5 +1,5 @@
 .skills{
-    @apply w-full pt-[170px] mt-16 lg:w-[1200px] lg:pt-[60px] lg:px-[80px] lg:pb-[30px] lg:mt-10 rounded-3xl bg-[#1F2937]
+    @apply w-full pt-[170px] mt-16 lg:mt-[90px] lg:px-[80px]
 }
 .skills_col{
     @apply flex justify-center flex-wrap gap-10 

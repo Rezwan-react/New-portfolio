@@ -1,36 +1,41 @@
-.main_menu{
-    @apply  h-screen  border-r-2 border-t-2 border-b-2 py-10 rounded-xl hidden lg:block
+
+  
+/* .menu_img {
+    @apply w-[150px] h-[150px] rounded-full m-auto
 }
-.main_menu{
-    @apply bg-[#1F2937] w-[305px] h-screen  mt-10 py-10 rounded-xl hidden lg:block
-}
-.menu_img{
-    @apply w-[150px] h-[150px] rounded-full m-auto 
-}
-.menu_img img{
+
+.menu_img img {
     @apply w-[150px] h-[150px] rounded-full overflow-hidden
-}
-.menu_text{
+} */
+
+/* .menu_text {
     @apply m-auto
 }
-.menu_text h1{
+
+.menu_text h1 {
     @apply text-xl font-medium font-Poppins text-[#fff] mt-4 flex justify-center items-center
 }
-.menu_text h2{
+
+.menu_text h2 {
     @apply text-xs font-normal font-Poppins text-[#fff] mt-4 flex justify-center items-center
+} */
+ .main_menu {
+    @apply bg-[#1F2937] w-full fixed z-50 py-5 px-6 top-0 hidden lg:block
 }
-.menu{
-    @apply flex justify-center items-center
+
+
+.menu ul {
+    @apply flex justify-center items-center gap-5 mt-4
 }
-.menu ul{
-    @apply flex flex-col justify-center items-start gap-5 mt-4 
-}
-.menu ul li a{
+
+.menu ul li a {
     @apply flex justify-center items-center gap-2
-}
-.menu ul li .yesActive{
-    @apply text-xl font-medium font-Poppins text-[#fff] py-3 px-3 bg-[#332cb6] rounded-lg hover:bg-[#332cb6]
 } 
-.menu ul li .noActive{
-    @apply text-xl font-medium font-Poppins text-[#fff] py-3 px-3 bg-transparent rounded-lg hover:bg-[#332cb6] 
+
+.menu ul li .yesActive {
+    @apply text-xl font-medium font-Poppins text-[#fff] py-3 px-3 bg-white/5 rounded-lg hover:bg-white/5
+}
+
+.menu ul li .noActive {
+    @apply text-xl font-medium font-Poppins text-[#fff] py-3 px-3 bg-transparent rounded-lg hover:bg-white/5
 }

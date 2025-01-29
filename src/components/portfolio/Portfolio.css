@@ -1,8 +1,8 @@
 .portfolio{
-    @apply w-[1200px] pt-[60px] px-[40px] pb-[40px] mt-10 rounded-3xl bg-[#1F2937]
+    @apply  pt-[60px] px-[40px] pb-[40px] mt-10 lg:mt-[100px] lg:px-[80px] 
 }
 .portfolio_col{
-    @apply flex justify-between flex-wrap gap-[45px]
+    @apply flex justify-between flex-wrap gap-[90px]
 }
 
 

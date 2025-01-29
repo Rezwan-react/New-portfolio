@@ -1,9 +1,14 @@
 /* .main_home{
     @apply w-full pt-10 mt-16 lg:w-[1200px] lg:pt-[60px] lg:px-[80px] lg:mt-10 rounded-3xl  h-screen  border-2
 } */
-.main_home{
-    @apply w-full pt-10 mt-16 lg:w-[1200px] lg:pt-[60px] lg:px-[80px] lg:mt-10 rounded-3xl bg-[#1F2937]
+/* .main_home{
+    @apply w-full pt-10 mt-16  lg:pt-[60px] lg:px-[80px] lg:mt-[500px] rounded-3xl bg-[#1F2937]
+} */
+
+#main_home{
+    @apply w-full lg:mt-[200px] lg:px-[80px] pt-10 mt-16
 }
+
 .head h1{
     @apply text-[#94ADCF] font-semibold font-Poppins text-4xl 
 }
