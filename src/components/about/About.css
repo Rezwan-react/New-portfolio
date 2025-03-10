@@ -2,7 +2,10 @@
     @apply w-full pt-10 mt-16 lg:mt-[100px] lg:px-[80px]
 }
 .about_row{
-    @apply lg:flex lg:justify-between
+    @apply lg:flex lg:justify-between mt-14
+}
+.about_head h2{
+    @apply text-3xl font-Poppins font-semibold text-[#94ADCF] flex justify-center items-center mt-2 
 }
 .about_text p{
     @apply w-[300px]  lg:w-[545px] text-[#94ADCF] font-normal font-Poppins text-xl

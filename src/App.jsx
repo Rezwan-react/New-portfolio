@@ -8,6 +8,7 @@ import SkillsPage from './pages/SkillsPage'
 import PortfolioPage from './pages/PortfolioPage'
 import ContactPage from './pages/ContactPage'
 import AnimatedCursor from 'react-animated-cursor'
+
 function App() {
 
   const route = createBrowserRouter(createRoutesFromElements(
@@ -25,7 +26,7 @@ function App() {
   return (
     <>
 
-<AnimatedCursor
+{/* <AnimatedCursor
         color="255,255,255"
         innerSize={15}
         outerSize={30}
@@ -48,7 +49,7 @@ function App() {
           'button',
           '.link',
         ]}
-      />
+      /> */}
 
       <RouterProvider router={route}/>
     </>

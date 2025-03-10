@@ -1,22 +1,14 @@
 import React, { useEffect } from 'react'
 import './SkillsCard.css'
-import AOS from 'aos';
-import 'aos/dist/aos.css';
+
 function SkillsCard({skills_icons, skills_text}) {
 
-  useEffect (()=>{
-    AOS.init({
-      offset: 100,
-      duration: 900,
-      easing: 'ease-in-sine',
-      delay: 100,
-    });
-  }, [])
+ 
 
   return (
 
     <>
-            <div data-aos="zoom-in"
+            <div 
             data-text="GitHub"
             className="  relative w-[180px] h-[200px] border border-white/10 shadow-[0px_25px_25px_rgba(0,0,0,0.25)] flex justify-center items-center  rounded-lg mx-4 backdrop-blur-md hover:scale-105 transition duration-300 ease-in-out"
             style={{

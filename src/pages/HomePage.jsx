@@ -13,11 +13,6 @@ function HomePage() {
       <SkillsPage />
       <PortfolioPage />
       <ContactPage />
-
-
-
-
-
     </>
   )
 }

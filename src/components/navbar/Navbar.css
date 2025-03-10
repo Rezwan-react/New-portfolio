@@ -1,26 +1,6 @@
 
-  
-/* .menu_img {
-    @apply w-[150px] h-[150px] rounded-full m-auto
-}
-
-.menu_img img {
-    @apply w-[150px] h-[150px] rounded-full overflow-hidden
-} */
-
-/* .menu_text {
-    @apply m-auto
-}
-
-.menu_text h1 {
-    @apply text-xl font-medium font-Poppins text-[#fff] mt-4 flex justify-center items-center
-}
-
-.menu_text h2 {
-    @apply text-xs font-normal font-Poppins text-[#fff] mt-4 flex justify-center items-center
-} */
  .main_menu {
-    @apply bg-[#1F2937] w-full fixed z-50 py-5 px-6 top-0 hidden lg:block
+    @apply bg-[#1F2937] w-full fixed z-50 pb-5 px-6 top-0 hidden lg:block
 }
 
 
@@ -33,9 +13,18 @@
 } 
 
 .menu ul li .yesActive {
+    @apply text-xl font-medium font-Poppins text-[#fff] py-3 px-3 bg-transparent rounded-lg hover:bg-white/5 
+}
+.menu ul li .yesActive:active {
     @apply text-xl font-medium font-Poppins text-[#fff] py-3 px-3 bg-white/5 rounded-lg hover:bg-white/5
 }
 
-.menu ul li .noActive {
-    @apply text-xl font-medium font-Poppins text-[#fff] py-3 px-3 bg-transparent rounded-lg hover:bg-white/5
-}
+
+
+
+
+
+
+
+
+

@@ -16,10 +16,13 @@ function Skills() {
 
   return (
     <>
-    <section>
+    <section id='skills'>
       <div className="skills">
         <div className="container">
           <div className="skills_row">
+          <div className="skills_head">
+                <h2>skills</h2>
+              </div>
             <div className="skills_col">
               <SkillsCard skills_icons={<FaReact/>} skills_text='React' />
               <SkillsCard skills_icons={<FaHtml5/>} skills_text='Html' />

@@ -4,4 +4,6 @@
 .skills_col{
     @apply flex justify-center flex-wrap gap-10 
 }
-
+.skills_head h2{
+    @apply text-3xl font-Poppins font-semibold text-[#94ADCF] flex justify-center items-center mb-14 
+}
