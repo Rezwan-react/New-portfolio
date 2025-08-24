@@ -22,24 +22,24 @@ function Home() {
 
   return (
     <>
-    <section id='home'>
-      <div >
-        <div className="container">
-          <div className="home_row">
-            <div className="home_col">
-              <div className="home_text">
-                <div className="head">
-                  <h1>Welcome</h1>
-                  <h2
-                    className="text-2xl lg:text-[40px] text-[#94ADCF] font-Poppins font-semibold mt-5"
+      <section id='home'>
+        <div >
+          <div className="container">
+            <div className="home_row">
+              <div className="home_col">
+                <div className="home_text">
+                  <div className="head">
+                    <h1>Welcome</h1>
+                    <h2
+                      className="text-2xl lg:text-[40px] text-[#94ADCF] font-Poppins font-semibold mt-5"
                       style={{
                         paddingTop: '5rem',
                         margin: 'auto 0',
                         fontWeight: 'normal',
                       }}
-                      >
+                    >
                       <span style={{ fontWeight: 'bold' }}>
-                        
+
                         <Typewriter
                           words={['I', 'am', 'a', 'react', 'developer']}
                           loop={true}
@@ -52,31 +52,31 @@ function Home() {
                           onType={handleType}
                         />
                       </span>
-                   </h2>
-                   <h3>You can trust me. I will make your website beautiful</h3>
-                </div>
-                <div  className="cv_button">
-                <a className='cv'
-                  href="/resume/Rezwan resume .pdf" download='myCV' ><FaDownload className='text-xl' /> Download CV</a>
-                </div>
-                <div  className="social_button">
-                  <h4>Follow Me</h4>
-                  <div  className="button">
-                  <SocialButton social_icons={<FaFacebookF/>} social_links='https://www.facebook.com/profile.php?id=61551685600240' />
-                  <SocialButton social_icons={<FaLinkedinIn />} social_links='https://www.linkedin.com/in/md-rezwan-islam-4886ba2a8/' />
-                  <SocialButton social_icons={<FaTwitter/>} social_links='https://x.com/Rezwan971' />
-                  <SocialButton social_icons={<FaGithub/>} social_links='https://github.com/Rezwan-react' />
+                    </h2>
+                    <h3>You can trust me. I will make your website beautiful</h3>
+                  </div>
+                  <div className="cv_button">
+                    <a className='cv'
+                      href="/resume/Rezwan resume.pdf" download='myCV' ><FaDownload className='text-xl' /> Download CV</a>
+                  </div>
+                  <div className="social_button">
+                    <h4>Follow Me</h4>
+                    <div className="button">
+                      <SocialButton social_icons={<FaFacebookF />} social_links='https://www.facebook.com/profile.php?id=61551685600240' />
+                      <SocialButton social_icons={<FaLinkedinIn />} social_links='https://www.linkedin.com/in/md-rezwan-islam-4886ba2a8/' />
+                      <SocialButton social_icons={<FaTwitter />} social_links='https://x.com/Rezwan971' />
+                      <SocialButton social_icons={<FaGithub />} social_links='https://github.com/Rezwan-react' />
+                    </div>
                   </div>
                 </div>
-              </div>
-              <div  className="home_img">
-              <img src="images/rezwan.jpg" alt="img" />
+                <div className="home_img">
+                  <img src="images/rezwan.jpg" alt="img" />
+                </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
-    </section>  
+      </section>
 
 
 
@@ -85,7 +85,7 @@ function Home() {
 
 
 
-       
+
     </>
   )
 }
